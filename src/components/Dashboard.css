@@ -1,0 +1,37 @@
+.dashboardContainer{
+    justify-content: center;
+    background-color: rgb(221, 81, 81);
+    text-align: center;
+    margin: 5% 7%;
+    border:1px solid black;
+}
+.loading{
+    justify-content: center;
+    text-align:center;
+}
+
+.headerSection {
+    align-items: center;
+    justify-content: center;  
+    padding:10;
+}
+
+.headerSection img {
+    position:absolute;
+    left: 24px;
+}
+.line{
+    margin-top:20px;
+    border-bottom: 1px solid black;
+}
+.card {
+    margin:4%;
+    min-height: 200px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+
+
