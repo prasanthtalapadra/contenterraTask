@@ -25,7 +25,7 @@ function Dashboard() {
         childData ? (
         <div className="dashboardContainer">
             <Header title={headerTitle} />
-            <div className="line"></div>
+            {/* <div className="line"></div> */}
             {childData ?
               <div className="row">
                     {childData.map((ele, ind) => {

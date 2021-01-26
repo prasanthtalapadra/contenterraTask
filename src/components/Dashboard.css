@@ -1,9 +1,9 @@
 .dashboardContainer{
     justify-content: center;
-    background-color: rgb(221, 81, 81);
+    background-color: rgb(236 236 236 / 52%);
     text-align: center;
     margin: 5% 7%;
-    border:1px solid black;
+    border: 1px solid black;
 }
 .loading{
     justify-content: center;
@@ -17,8 +17,9 @@
 }
 
 .headerSection img {
-    position:absolute;
-    left: 24px;
+    position: absolute;;
+    width:50px;
+    height:50px;
 }
 .line{
     margin-top:20px;
@@ -27,6 +28,7 @@
 .card {
     margin:4%;
     min-height: 200px;
+    box-shadow: 0px 0px 20px -4px grey
 }
 
 .card-body {

@@ -32,7 +32,7 @@ function DisplayCards(props) {
                     <h5 className="card-title">{props.heading}</h5>
                     <p className="card-text">{ReactHtmlParser(text)}</p>
                     <p className="card-text">score: {props.score}</p>
-                    <p className="card-text">Url : <a className="card-text">{props.url}</a></p>  
+                    <p className="card-text">Url : <a href="#" className="card-text">{props.url}</a></p>  
                 </div>
             </div>
 
