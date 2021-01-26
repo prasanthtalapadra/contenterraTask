@@ -30,7 +30,7 @@ function Dashboard() {
               <div className="row">
                     {childData.map((ele, ind) => {
                         return (
-                            <DisplayCards classname={classname ?  'rightOne' : 'leftOne'} score={ele.data.score} url={ele.data.url} htmlString={ele.data.selftext_html}  heading={ele.data.title} />
+                            <DisplayCards key={ind} classname={classname ?  'rightOne' : 'leftOne'} score={ele.data.score} url={ele.data.url} htmlString={ele.data.selftext_html}  heading={ele.data.title} />
                         )
                     })}
                 </div>
